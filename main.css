@@ -1,0 +1,65 @@
+body {
+    background-color: brown;
+    margin: 0;
+}
+
+.ui {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border-radius: 10px;
+    border: solid black 2px;
+    margin: 10px;
+}
+
+#bookCount {
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.library {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookshelf {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    height: 500px;
+    width: 500px;
+}
+
+.bookshelf > img {
+    height: 500px;
+    width: 500px;
+}
+
+.shelf {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 450px;
+    /* background-color: rebeccapurple; */
+}
+
+.book {
+    position: relative;
+    border: solid black 2px;
+    border-radius: 10px;
+    height: 75px;
+    width: 50px;
+    font-size: 10px;
+    text-align: center;
+    overflow: scroll;
+    margin: 0 5px 15px 5px;
+} */
